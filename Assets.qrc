@@ -1,0 +1,16 @@
+<RCC>
+    <qresource prefix="/">
+        <file>favicon.ico</file>
+        <file>icon/add-circle-fill.png</file>
+        <file>icon/bar-chart-fill.png</file>
+        <file>icon/delete-bin-4-fill.png</file>
+        <file>icon/edit-2-fill.png</file>
+        <file>icon/error-warning-fill.png</file>
+        <file>icon/footprint-fill.png</file>
+        <file>icon/global-fill.png</file>
+        <file>icon/Logo.png</file>
+        <file>icon/team-fill.png</file>
+        <file>icon/whatsapp-fill.png</file>
+        <file>Data.db</file>
+    </qresource>
+</RCC>
