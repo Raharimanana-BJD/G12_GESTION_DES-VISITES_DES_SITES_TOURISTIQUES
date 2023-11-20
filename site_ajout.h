@@ -20,6 +20,8 @@ private slots:
 
     void on_site_annuler_clicked();
 
+    void on_site_ajouter_clicked();
+
 private:
     Ui::site_ajout *ui;
 };

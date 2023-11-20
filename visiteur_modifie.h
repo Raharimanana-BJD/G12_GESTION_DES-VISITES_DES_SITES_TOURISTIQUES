@@ -13,10 +13,15 @@ class visiteur_modifie : public QDialog
 
 public:
     explicit visiteur_modifie(QWidget *parent = nullptr);
+    void getMod(QString nom, QString adresse, QString provenance);
+
+    void getInfo(QString name, QString adress, QString prov);
     ~visiteur_modifie();
 
 private slots:
     void on_visiteur_annuler_clicked();
+
+    void on_visiteur_modifier_clicked();
 
 private:
     Ui::visiteur_modifie *ui;

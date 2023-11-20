@@ -11,6 +11,5 @@
         <file>icon/Logo.png</file>
         <file>icon/team-fill.png</file>
         <file>icon/whatsapp-fill.png</file>
-        <file>Data.db</file>
     </qresource>
 </RCC>

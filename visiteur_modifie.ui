@@ -144,8 +144,8 @@ font: &quot;Arial&quot;;</string>
         </property>
        </widget>
       </item>
-      <item alignment="Qt::AlignHCenter">
-       <widget class="QTextEdit" name="input_7">
+      <item>
+       <widget class="QLineEdit" name="visiteurModifNom">
         <property name="minimumSize">
          <size>
           <width>341</width>
@@ -216,8 +216,8 @@ font: &quot;Arial&quot;;</string>
         </property>
        </widget>
       </item>
-      <item alignment="Qt::AlignHCenter">
-       <widget class="QTextEdit" name="input_2">
+      <item>
+       <widget class="QLineEdit" name="visiteurModifAdresse">
         <property name="minimumSize">
          <size>
           <width>341</width>
@@ -288,8 +288,8 @@ font: &quot;Arial&quot;;</string>
         </property>
        </widget>
       </item>
-      <item alignment="Qt::AlignHCenter">
-       <widget class="QTextEdit" name="input_3">
+      <item>
+       <widget class="QLineEdit" name="visiteurModifProvenance">
         <property name="minimumSize">
          <size>
           <width>341</width>

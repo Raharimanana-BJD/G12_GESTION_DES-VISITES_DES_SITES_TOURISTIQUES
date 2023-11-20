@@ -96,7 +96,7 @@ font: &quot;Arial&quot;;</string>
      </property>
     </spacer>
    </item>
-   <item>
+   <item alignment="Qt::AlignHCenter">
     <widget class="QFrame" name="input_4">
      <property name="minimumSize">
       <size>
@@ -143,8 +143,8 @@ font: &quot;Arial&quot;;</string>
         </property>
        </widget>
       </item>
-      <item alignment="Qt::AlignHCenter">
-       <widget class="QTextEdit" name="input_7">
+      <item>
+       <widget class="QLineEdit" name="nomDuSiteAjout">
         <property name="minimumSize">
          <size>
           <width>341</width>
@@ -161,14 +161,15 @@ font: &quot;Arial&quot;;</string>
          <string notr="true">border-radius:8px;
 border:1px solid #333333;
 font-size:16px;
-font: &quot;Arial&quot;;</string>
+font: &quot;Arial&quot;;
+</string>
         </property>
        </widget>
       </item>
      </layout>
     </widget>
    </item>
-   <item>
+   <item alignment="Qt::AlignHCenter">
     <widget class="QFrame" name="input_5">
      <property name="minimumSize">
       <size>
@@ -215,8 +216,8 @@ font: &quot;Arial&quot;;</string>
         </property>
        </widget>
       </item>
-      <item alignment="Qt::AlignHCenter">
-       <widget class="QTextEdit" name="input_2">
+      <item>
+       <widget class="QLineEdit" name="lieuDuSiteAjout">
         <property name="minimumSize">
          <size>
           <width>341</width>
@@ -240,7 +241,7 @@ font: &quot;Arial&quot;;</string>
      </layout>
     </widget>
    </item>
-   <item>
+   <item alignment="Qt::AlignHCenter">
     <widget class="QFrame" name="input_6">
      <property name="minimumSize">
       <size>
@@ -287,8 +288,8 @@ font: &quot;Arial&quot;;</string>
         </property>
        </widget>
       </item>
-      <item alignment="Qt::AlignHCenter">
-       <widget class="QTextEdit" name="input_3">
+      <item>
+       <widget class="QLineEdit" name="tarifJournalieDuSiteAjout">
         <property name="minimumSize">
          <size>
           <width>341</width>

@@ -347,7 +347,7 @@ QPushButton:hover {
            <number>0</number>
           </property>
           <item>
-           <widget class="QPushButton" name="pushButton">
+           <widget class="QPushButton" name="button_5">
             <property name="minimumSize">
              <size>
               <width>190</width>
@@ -383,7 +383,7 @@ QPushButton:hover {
            </spacer>
           </item>
           <item>
-           <widget class="QPushButton" name="pushButton_2">
+           <widget class="QPushButton" name="button_6">
             <property name="minimumSize">
              <size>
               <width>190</width>
@@ -519,22 +519,6 @@ font: &quot;Arial&quot;;</string>
           </layout>
          </widget>
         </item>
-        <item row="1" column="0" colspan="2">
-         <widget class="QTableView" name="tableView">
-          <property name="minimumSize">
-           <size>
-            <width>583</width>
-            <height>0</height>
-           </size>
-          </property>
-          <attribute name="horizontalHeaderVisible">
-           <bool>false</bool>
-          </attribute>
-          <attribute name="horizontalHeaderMinimumSectionSize">
-           <number>143</number>
-          </attribute>
-         </widget>
-        </item>
         <item row="2" column="0">
          <spacer name="horizontalSpacer_4">
           <property name="orientation">
@@ -547,6 +531,67 @@ font: &quot;Arial&quot;;</string>
            </size>
           </property>
          </spacer>
+        </item>
+        <item row="1" column="0" colspan="2">
+         <widget class="QTableView" name="visiteurTableWidget">
+          <property name="styleSheet">
+           <string notr="true">/* Désactiver le focus par défaut sur le QTableView */
+QTableView {
+    outline: none;
+}
+
+/* Changer la couleur de fond et la bordure lorsqu'une ligne est sélectionnée */
+QTableView::item:selected {
+    background-color: #c8d9e8;
+    border: 1px solid #78a0d4;
+}
+
+/* Modifier le style de la première colonne (le nom du fichier) */
+QTableView::item:selected:first {
+    background-color: #d0d8f8;
+    border: 1px solid #6e88d6;
+}</string>
+          </property>
+          <property name="sizeAdjustPolicy">
+           <enum>QAbstractScrollArea::AdjustIgnored</enum>
+          </property>
+          <property name="alternatingRowColors">
+           <bool>false</bool>
+          </property>
+          <property name="selectionBehavior">
+           <enum>QAbstractItemView::SelectRows</enum>
+          </property>
+          <property name="textElideMode">
+           <enum>Qt::ElideRight</enum>
+          </property>
+          <property name="verticalScrollMode">
+           <enum>QAbstractItemView::ScrollPerPixel</enum>
+          </property>
+          <property name="horizontalScrollMode">
+           <enum>QAbstractItemView::ScrollPerPixel</enum>
+          </property>
+          <property name="showGrid">
+           <bool>true</bool>
+          </property>
+          <property name="sortingEnabled">
+           <bool>false</bool>
+          </property>
+          <property name="cornerButtonEnabled">
+           <bool>true</bool>
+          </property>
+          <attribute name="horizontalHeaderCascadingSectionResizes">
+           <bool>true</bool>
+          </attribute>
+          <attribute name="horizontalHeaderMinimumSectionSize">
+           <number>135</number>
+          </attribute>
+          <attribute name="horizontalHeaderDefaultSectionSize">
+           <number>135</number>
+          </attribute>
+          <attribute name="verticalHeaderVisible">
+           <bool>false</bool>
+          </attribute>
+         </widget>
         </item>
         <item row="2" column="1">
          <widget class="QFrame" name="frame_3">
@@ -780,7 +825,7 @@ font: &quot;Arial&quot;;</string>
          </widget>
         </item>
         <item row="1" column="0" colspan="2">
-         <widget class="QTableView" name="tableView_2">
+         <widget class="QTableView" name="siteTableWidget">
           <property name="minimumSize">
            <size>
             <width>583</width>
@@ -1040,7 +1085,7 @@ font: &quot;Arial&quot;;</string>
          </widget>
         </item>
         <item row="1" column="0" colspan="2">
-         <widget class="QTableView" name="tableView_3">
+         <widget class="QTableView" name="visiteTableWidget">
           <property name="minimumSize">
            <size>
             <width>583</width>
@@ -1207,7 +1252,15 @@ QPushButton::focus {
         </item>
        </layout>
       </widget>
-      <widget class="QWidget" name="page_4"/>
+      <widget class="QWidget" name="page_4">
+       <layout class="QGridLayout" name="gridLayout_5">
+        <item row="0" column="0">
+         <widget class="QWidget" name="charts" native="true">
+          <layout class="QHBoxLayout" name="horizontalLayout_7"/>
+         </widget>
+        </item>
+       </layout>
+      </widget>
      </widget>
     </item>
    </layout>

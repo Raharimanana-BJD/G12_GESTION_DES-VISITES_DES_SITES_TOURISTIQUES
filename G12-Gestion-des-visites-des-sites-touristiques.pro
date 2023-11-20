@@ -1,4 +1,7 @@
 QT       += core gui
+QT += sql
+QT +=core
+QT += core gui charts
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -22,7 +25,7 @@ SOURCES += \
     visiteur_supprimer.cpp
 
 HEADERS += \
-    Data_Base.h \
+    connexion.h \
     mainwindow.h \
     site_ajout.h \
     site_modifie.h \
